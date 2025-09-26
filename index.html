@@ -9,6 +9,12 @@
       href="/CSS Perfect/Perfect - 기타 파일/favicon.png"
     />
     <link rel="stylesheet" href="/CSS Perfect/Perfect - CSS /main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <!-- <style>
       section {
         background: #ff1b68;
@@ -26,11 +32,16 @@
             
             이 방법은 Inline style 이라고도 한다.
         -->
-      <section>
+      <section id="product-overview">
         <h1>Get the freedom you deserve.</h1>
       </section>
-      <section>
-        <h1>Choose Your Plan.</h1>
+      <!-- 
+        * id selector 와 class selector 차이점
+        - id selector: ID selector 은 고유명사처럼 딱 한번만 사용할 수 있다.
+        - class selector: class selector 은 여러 번 사용할 수 있다.
+      -->
+      <section id="plans">
+        <h1 class="section-title">Choose Your Plan.</h1>
       </section>
     </main>
   </body>
