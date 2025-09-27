@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* 
   ID selector 은 CSS Style 에서 '#'를 꼭 쓰고, ID 선택자의 이름을 적어주어야 한다.
 */
@@ -5,14 +9,18 @@
   background: #ff1b68;
 }
 
-h1 {
-  color: white;
-  font-family: "Anton", sans-serif;
-}
-
 /* 
-  Class selector 은 CSS style 에서 '.' 을 꼭 쓰고, class 선택자의 이름을 적어주어야 한다.
+Class selector 은 CSS style 에서 '.' 을 꼭 쓰고, class 선택자의 이름을 적어주어야 한다.
 */
 .section-title {
   color: #2ddf5c;
 }
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+/* h1 {
+  font-family: sans-serif;
+} */
